@@ -1,0 +1,15 @@
+{
+  "name": "project-6-shadow-dog-enemy-variety",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /project-6-shadow-dog-enemy-variety",
+    "deploy": "gh-pages -d build",
+    "build-and-deploy": "npm run build && npm run deploy"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
